@@ -1,0 +1,47 @@
+.container {
+  margin: 3%;
+  border: 5px solid black;
+}
+
+.h11 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 3.8em;
+  font-weight: 530;
+}
+
+h4 {
+  font-size: medium;
+  padding: 12px;
+  background-color: #d6ebfd;
+  text-align: center;
+  font-weight: bolder;
+}
+
+.h5 {
+  text-align: center;
+  color: rgb(169, 169, 169);
+  padding: 1%;
+}
+
+img {
+  width: 230px;
+  height: 100px;
+}
+
+/* MEDIA QURIES */
+@media only screen and (max-width: 1273px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+
+  img {
+    width: 130%;
+  }
+  .h11 {
+    font-size: 30px;
+  }
+  .row h4 {
+    font-size: small;
+  }
+}

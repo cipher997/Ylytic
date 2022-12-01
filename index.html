@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Bootstrap CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+
+    <title>Ylytic Coding Assignment</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="row">
+          <div class="col-9">
+            <h1 class="h11">Weekly Subscribers Gain and Loss</h1>
+          </div>
+          <div class="col-3">
+            <img src="ylyticlogo.png" alt="Ylytic logo" class="img" />
+          </div>
+          <br />
+        </div>
+        <div class="row">
+          <div class="h4">
+            <h4>
+              Takeaway: Majority of Subscribers are gained in spike (viral)
+              events that mostly occurred in Apr -Jun '22
+            </h4>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <canvas id="myChart" aria-label="chart" role="img"></canvas>
+        <h5 class="h5">Confidential</h5>
+      </div>
+    </div>
+    <!-- <script src="chart.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.0.1/dist/chart.umd.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
